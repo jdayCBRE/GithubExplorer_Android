@@ -2,6 +2,8 @@
 
 This is a version of the GithubExplorer project written natively for Android in Kotlin.
 
+![alt text](https://github.com/jdayCBRE/GithubExplorer_Android/blob/master/media/GithubExplorer_Android.gif)
+
 #### Pros
 - Kotlin (type safety, concise, great readability -- very similar to Swift)
 - Visual tools for UI layout, XML structure

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/searchResultsRecyclerView"
+        android:name="com.cbre.jday.githubexplorer_android.ui.search.SearchResultsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFF"
+        android:paddingTop="?attr/actionBarSize"
+        tools:context=".ui.search.SearchResultsFragment"
+        tools:listitem="@layout/list_item_repo" />
+
+    <ProgressBar
+        android:id="@+id/search_results_progress_bar"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:paddingTop="?attr/actionBarSize" />
+
+</android.support.constraint.ConstraintLayout>
